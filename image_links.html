@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f2f2f2;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <a href="./pages/about/mission/OurMission.html">Mission</a>
+    <a href=""></a>
+    <p>Welcome to our website! Explore our collection of images related to technology, nature, and food.</p>
+    <a href="./pages/about.html"></a><img src="./Images/Technology_image.jpg.jpg" alt="Technology"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="pages/about/mission/OurMission.html"><img src="./Images/Nature_image1.jpg.jpg" alt="Nature"></a>
+        <a href="./pages/about/mission/OurMission.html"><img src="./Images/Nature_image2.jpg.jpg" alt="Nature"></a>
+        <a href="./pages/about/mission/OurMission.html"><img src="./Images/Nature_image3.jpg.jpg" alt="Nature"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="./pages/about/mission/OurMission.html"><img src="./Images/Food _image1.jpg.jpg" alt="Food 1"></a> Food Item 1</li>
+        <li><a href="./pages/about/mission/OurMission.html"><img src="././Images/Food_image2.jpg.jpg" alt="Food 2"></a> Food Item 2</li>
+        <li><a href="./pages/about/mission/OurMission.html"><img src="./Images/Food_image3.jpg.jpg" alt="Food 3"></a> Food Item 3</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Image Links. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
